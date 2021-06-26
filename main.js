@@ -26,7 +26,7 @@ window.addEventListener("load", function(e) {
         // If the user is on small devices
         {setTimeout(function() {
             // We change the icon
-            macIcon.style.backgroundImage = "url(/assets/icons/sadmac.svg)";
+            macIcon.style.backgroundImage = "url(sadmac.svg)";
             // We remove its bouncing animation
             macIcon.classList.remove('anim-load');
             // Change the background color and show an error message!
